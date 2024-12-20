@@ -1,0 +1,33 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sifra {
+  font-size: 4rem;
+  display: none;
+}
+
+#btn {
+  font-size: 4rem;
+  border: solid black 7px;
+  background-color: darkcyan;
+}
+
+#btn:hover {
+  background-color: rgb(3, 98, 98);
+  color: rgb(29, 28, 28);
+  cursor: pointer;
+}
