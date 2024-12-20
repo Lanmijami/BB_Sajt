@@ -5,7 +5,7 @@ function brojacFja() {
   let y = 236 - x;
   document.getElementById('tekst').innerHTML = 'Klikni me jos ' + y + ' puta!';
 
-  if (x == 236) {
+  if (x == 2) {
     document.getElementById('sifra').style.display = 'block';
   }
 }
